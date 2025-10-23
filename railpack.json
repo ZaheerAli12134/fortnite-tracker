@@ -1,6 +1,0 @@
-{
-  "root": "backend",
-  "build": "npm run build",
-  "start": "npm start",
-  "install": "npm install"
-}
