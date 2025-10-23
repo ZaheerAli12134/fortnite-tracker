@@ -51,7 +51,7 @@ const SearchForm = ({ onCosmeticSelect }) => {
           Get notified via email or SMS when your desired skins, emotes, or pickaxes return to the item shop!
         </p>
 
-        {process.env.REACT_APP_FN_API_KEY === 'your-api-key-here' && (
+        {process.env.FN_API_KEY === 'api-key' && (
           <div className="notification-option" style={{background: 'rgba(243, 156, 18, 0.1)', borderColor: 'var(--warning)'}}>
             <div className="option-icon">⚠️</div>
             <div className="option-title">API Key Required</div>

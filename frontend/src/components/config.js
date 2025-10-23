@@ -1,1 +1,0 @@
-FORTNITEAPI_KEY = "1a211c8b-b33c1d64-a893b5f0-f3fbdd75"

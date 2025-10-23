@@ -1,5 +1,5 @@
 const API_BASE_URL = 'https://fortnite-api.com/v2';
-const API_KEY = process.env.REACT_APP_FN_API_KEY || 'your-api-key-here';
+const API_KEY = process.env.FN_API_KEY || 'your-api-key-here';
 
 const rarityMap = {
   'common': 'common',

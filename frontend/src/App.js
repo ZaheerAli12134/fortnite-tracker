@@ -49,7 +49,7 @@ function App() {
         )}
       </main>
 
-      {!process.env.REACT_APP_FN_API_KEY && (
+      {!process.env.FN_API_KEY && (
         <div style={{
           position: 'fixed',
           bottom: '0',
@@ -61,7 +61,7 @@ function App() {
           textAlign: 'center',
           zIndex: 1000
         }}>
-          ⚠️ API Key Missing: Create a .env file with REACT_APP_FN_API_KEY=your_key_here
+          no api
         </div>
       )}
     </div>
